@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+</main>
+<script>
+	function scrollToSection(sectionId) {
+		var section = document.getElementById(sectionId);
+		section.scrollIntoView({ behavior: "smooth" });
+	}
+</script>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#achievements">Achievements</a></li>
+				<li><a href="#resume">Resume/CV</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="home">
+			<h1>Explore Kaushsal's Portfolio</h1>
+			<p>Aspiring entrepreneur with a keen interest in connecting different ideas, people, and industries.</p>
+			<p>Design Centric Engineering Student at Indian Institute of Information Technology Design & Manufacturing Kancheepuram</p>
+		</section>
+		<section id="about">
+			<h2>About Me</h2>
+			<img src="profile.jpg" alt="Profile Picture">
+			<p>I am an aspiring entrepreneur with a keen interest in connecting different ideas, people, and industries. I possess strong technical and interpersonal skills, and am currently building my academic background in engineering. My passion is to solve business problems by exploring various verticals and finding innovative solutions.
+				Currently during my graduate studies, I have held various leadership roles, including coordinating institute-wide events and leading two clubs. My studies at IIITDM have been focused on Entrepreneurship, Leadership, and Innovation and the design courses are helping me to stay focused.
+				I am willing to collaborate and take up 2023 summer internships to deepen my interests. Feel free to reach out to me through LinkedIn or mail.
+				</p>
+				<h3>Education</h3>
+				<ul>
+					<li>Proficient in HTML, CSS, JavaScript, Python, and Java</li>
+					<li>Experience with React, Node.js, and Express</li>
+					<li>Strong problem-solving and analytical skills</li>
+					<li>Excellent teamwork and communication skills</li>
+				</ul>	
+		</section>
+		<section id="skills">
+			<h2>Skills</h2>
+			
+				<li>Leadership</li>
+				<li>Digital Marketing</li>
+				<li>Public speaking and Communication</li>
+				<li>Community Building</li>
+		</section>
+		<section id="achievements">
+			<h2>Achievements</h2>
+				<li>JEE Mains 2021 - 99.17 percentile</li>
+				<li>RAJYA PURASKAR Awardee</li>
+				<li> Member of Institute Innovation Council </li>		
+		</section>
+		<section id="resume">
+			<h2>Resume/CV</h2>
+			<p>You can download my resume <a href="resume.pdf" download>here</a>.</p>
+		</section>
+		<section id="contact">
+			<h2>Contact</h2>
+			<p>Feel free to get in touch with me through the following channels:</p>
+			<ul>
+				<li>Email: gkaushsal@gmail.com</li>
+				<li>Phone: +91-8939927045</li>
+				<li>LinkedIn: <a href="https://www.linkedin.com/in/kaushsal-g/">https://www.linkedin.com/in/kaushsal-g/</a></li>
+				<li>Instagram: <a href="https://www.instagram.com/kaushsalg">https://www.instagram.com/kaushsalg/</a></li>
+			</ul>
+		</section>
+		
+	</main>
+	<div class="slider">
+		<input type="radio" name="slider" id="slide1" checked>
+		<input type="radio" name="slider" id="slide2">
+		<input type="radio" name="slider" id="slide3">
+		<div class="slide slide1"></div>
+		<div class="slide slide2"></div>
+		<div class="slide slide3"></div>
+	  </div>
+</body>
+</html>
