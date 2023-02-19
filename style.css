@@ -147,26 +147,3 @@ main p {
   padding: 0.5em;
 }
 
-.resume p {
-  font-size: 1.2rem;
-  line-height: 1.5;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-img {
-  display: block;
-  margin: 0 auto;
-  max-width:60%;
-  height: 90%;
-}
-main {
-  text-align: center;
-}
-
-main p {
-  text-align: center;
-  list-style-type: disc;
-  list-style-position: inside;
-  margin: 0.5em;
-  padding: 0.5em;
-}
